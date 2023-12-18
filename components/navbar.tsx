@@ -3,6 +3,7 @@ import { MaxWidthWrapper } from "./max-width-wrapper";
 import { Icons } from "./icons";
 import { NavItems } from "./nav-items";
 import { buttonVariants } from "./ui/button";
+import { Cart } from "./cart";
 
 export const Navbar = () => {
 
@@ -58,7 +59,7 @@ export const Navbar = () => {
                     </div>
                   )}
                   <div className="ml-4 flow-root lg:ml-6" >
-                    {/* <Cart /> */}
+                    <Cart />
                   </div>
                 </div>
               </div>
